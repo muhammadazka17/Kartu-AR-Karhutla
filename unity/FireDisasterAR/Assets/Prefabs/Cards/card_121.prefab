@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1005458251462015811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1395533185220888138}
+  m_Layer: 0
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395533185220888138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005458251462015811}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2823344919685872956}
+  m_Father: {fileID: 840880424689178478}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3734185213070275332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840880424689178478}
+  - component: {fileID: 2644340222402906925}
+  - component: {fileID: 8009268134670543491}
+  m_Layer: 0
+  m_Name: card_121
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &840880424689178478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3734185213070275332}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1395533185220888138}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2644340222402906925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3734185213070275332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15c09fe396524b4498e03e58869574e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardScene
+  cardId: card_121
+  category: 0
+  title: Cuaca Ekstrem
+  info: "Panas ekstrem dan kemarau panjang (El Ni\xF1o) mengeringkan vegetasi sehingga sangat mudah terbakar."
+  targetSize: 0.12
+  content: {fileID: 1395533185220888138}
+  startLevel: 1
+  level: 1
+  steamMat: {fileID: 0}
+--- !u!114 &8009268134670543491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3734185213070275332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02993a138ca533045a1c0c0998ea356a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PemicuActor
+  kind: 1
+--- !u!1001 &7626672689881188885
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1395533185220888138}
+    m_Modifications:
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466946279231044395, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      propertyPath: m_Name
+      value: weather
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6466946279231044395, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1463788763554877616}
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+--- !u!4 &2823344919685872956 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3532533662076815575, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+  m_PrefabInstance: {fileID: 7626672689881188885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3488133603162009918 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6466946279231044395, guid: 88c267654457fc341b92247f1cf92e46, type: 3}
+  m_PrefabInstance: {fileID: 7626672689881188885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1463788763554877616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3488133603162009918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d8c8646a86d72469a90b7d6fd08337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FireFX
+  fireMat: {fileID: 2100000, guid: dba5b4ca93014c14da4a557405bf70f5, type: 2}
+  smokeMat: {fileID: 2100000, guid: 0b67d1392bb906c4990b6279a68473f0, type: 2}
+  emberMat: {fileID: 2100000, guid: c27ca2685cc0db34780bed10cb039d83, type: 2}
+  spawnOnStart: 0
+  intensity: 1

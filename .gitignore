@@ -1,0 +1,18 @@
+# Unity
+unity/FireDisasterAR/[Ll]ibrary/
+unity/FireDisasterAR/[Tt]emp/
+unity/FireDisasterAR/[Oo]bj/
+unity/FireDisasterAR/[Ll]ogs/
+unity/FireDisasterAR/[Uu]ser[Ss]ettings/
+unity/FireDisasterAR/[Bb]uilds/
+unity/FireDisasterAR/_backup_arfoundation/
+unity/FireDisasterAR/Packages/*.tgz
+*.apk
+*.aab
+*.csproj
+*.sln
+.vs/
+.idea/
+# Blender
+*.blend1
+__pycache__/
